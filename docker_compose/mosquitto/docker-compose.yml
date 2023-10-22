@@ -1,0 +1,16 @@
+version: "3"
+services:
+  mqtt:
+    container_name: eclipse-mosquitto
+    image: eclipse-mosquitto:2
+    volumes:
+      - ./config:/mosquitto/config
+      - /project-moyer/docker_volumes/mosquitto/data:/mosquitto/data
+      - /var/log/mosquitto:/mosquitto/log
+    ports:
+      - 1883:1883
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+        
+      
