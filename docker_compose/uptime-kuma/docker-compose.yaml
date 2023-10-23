@@ -3,7 +3,7 @@ version: "3"
 
 services:
   uptime-kuma:
-    image: louislam/uptime-kuma:1
+    image: louislam/uptime-kuma:1.23.3-alpine
     container_name: uptime-kuma
     volumes:
       - /project-moyer/docker_volumes/uptime-kuma/data:/app/data

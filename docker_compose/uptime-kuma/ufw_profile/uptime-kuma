@@ -1,0 +1,5 @@
+[uptime-kuma]
+title=An easy-to-use self-hosted monitoring tool
+description=An easy-to-use self-hosted monitoring tool
+
+ports=3001/tcp
