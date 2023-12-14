@@ -1,3 +1,4 @@
+**/mosquitto/config/credentials
 **/kuma.db*
 **/.env
 
